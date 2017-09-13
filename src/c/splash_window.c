@@ -22,7 +22,9 @@ void splash_window_load(Window *window){
 }
 
 void splash_window_unload(Window *window){
-  
+  gbitmap_destroy(splashImage);
+  bitmap_layer_destroy(splashImageLayer);
+  text_layer_destroy(splashImageTitle);
 }
 
 void splash_window_create(){
