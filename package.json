@@ -1,0 +1,31 @@
+{
+    "author": "jslieblich@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "weather-app",
+    "pebble": {
+        "displayName": "Weather App",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/weather_icon.png",
+                    "name": "IMAGE_SPLASH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "66a223ce-4b83-43ca-a384-7d581d036264",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
